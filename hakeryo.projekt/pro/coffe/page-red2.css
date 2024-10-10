@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*main*/
+.main {
+  background-image: url(Path\ 15.png);
+  width: 1920px;
+  height: 590px;
+}
+/*form section*/
+.lay-out {
+  position: absolute;
+  top: 157px;
+  left: 1056px;
+  width: 569px;
+  height: 643px;
+  background: #1a1a1ad4 0% 0% no-repeat padding-box;
+}
+.lay-out h2 {
+  margin: 60px 60px;
+  text-align: right;
+  font: normal normal 900 36px/53px Heebo;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.lay-out p {
+  margin: 60px 60px;
+  text-align: right;
+  font: normal normal normal 20px/29px Heebo;
+  letter-spacing: 0px;
+  color: #f9f9f9;
+  opacity: 1;
+}
+input {
+  margin: auto;
+  display: flex;
+  text-align: center;
+  top: 434px;
+  left: 1131px;
+  width: 418px;
+  height: 50px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d31c75;
+  opacity: 1;
+}
+.lay-out label {
+  margin-left: 450px;
+  color: azure;
+  text-align: left;
+}
+.lay-out button {
+  top: 611px;
+  left: 1382px;
+  width: 166px;
+  height: 50px;
+  background: #d31c75 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: 330;
+  margin-top: 20px;
+
+  font: normal normal bold 22px/30px Heebo;
+  letter-spacing: 0.33px;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+
+.lay-out button:hover {
+  background-color: aliceblue;
+  color: #d31c75;
+}
+@media (max-width: 768px) {
+  .lay-out {
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .lay-out h2 {
+    font-size: 28px;
+  }
+
+  .lay-out p {
+    font-size: 16px;
+  }
+
+  .lay-out label {
+    margin-left: 360;
+  }
+  .lay-out button {
+    margin-left: 250;
+  }
+}
